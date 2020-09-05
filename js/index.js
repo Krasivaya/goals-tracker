@@ -70,8 +70,8 @@ function progress() {
     document.querySelector('#wait').style = 'display:none';
     document.querySelector('#progress').style = 'display:block';
 
-    chart[0].innerText = Math.round(results)
-    circle[0].setAttribute('stroke-dashoffset', -results)
+    chart[0].innerText = Math.round(results);
+    circle[0].setAttribute('stroke-dashoffset', -results);
     if (results === 100) {
         document.querySelector('#done').style = 'display:block';
     }
