@@ -65,4 +65,12 @@ function progress() {
     const results = (checkedGoals / allGoals) * 100
 
     // Display the Results
+    if (results === 100) {
+        document.querySelector('#done').style = 'display:block';
+    } else if (isNaN(results)) {
+
+    }
+    else {
+        document.querySelector('#done').style = 'display:none';
+    }
 }
