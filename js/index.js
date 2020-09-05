@@ -36,3 +36,6 @@ function addItem(e) {
 }
 
 // Rsset function
+function resetField() {
+    $('#item').val('')
+}
