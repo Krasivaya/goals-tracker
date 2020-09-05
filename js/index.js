@@ -60,5 +60,7 @@ function removeItem(e) {
 function progress() {
     const allGoals = $('input[name="goal"]').length;
     const checkedGoals = $('input[name="goal"]:checked').length;
+
+    // Results
     const results = (checkedGoals / allGoals) * 100
 }
