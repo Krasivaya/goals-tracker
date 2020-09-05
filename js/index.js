@@ -67,6 +67,7 @@ function progress() {
     const results = (checkedGoals / allGoals) * 100
 
     // Display the Results
+    chart[0].innerText = Math.round(rz)
     if (results === 100) {
         document.querySelector('#done').style = 'display:block';
     } else if (isNaN(results)) {
