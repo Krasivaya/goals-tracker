@@ -69,7 +69,7 @@ function progress() {
     if (results === 100) {
         document.querySelector('#done').style = 'display:block';
     } else if (isNaN(results)) {
-        prg[0].innerText = 0
+        chart[0].innerText = 0
     }
     else {
         document.querySelector('#done').style = 'display:none';
