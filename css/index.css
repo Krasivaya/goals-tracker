@@ -20,3 +20,41 @@ h3, b{
     width: 2rem;
     height: 1rem;
 }
+.o-progress-circle {
+    display: inline-block;
+    position: relative;
+    width: 350px;
+    height: 350px;
+
+}
+.o-progress-circle circle {
+    fill: none;
+    stroke-width: 3px;
+    stroke: #53b7ba;
+} 
+.o-progress-circle #circle-2{
+    transition: 1s;
+    stroke: #ace0e2;
+    stroke-dasharray: 100;
+}
+.o-progress-circle__number {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display:inline-block;
+    margin: auto;
+    height:10rem;
+    width: 100%;
+    color: rgba(255,255,255,0.5);
+    font-size: 5rem;
+    text-align: center;
+}
+.o-progress-circle__number em {
+    font-weight: 100;
+    font-style: normal;
+}
+.o-progress-circle--rounded #circle-2{
+    stroke-linecap : round;
+}
