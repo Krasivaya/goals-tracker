@@ -58,5 +58,6 @@ function removeItem(e) {
 
 // Goal Progress
 function progress() {
-    const allGoals = $('input[name="goal"]').length
+    const allGoals = $('input[name="goal"]').length;
+    const checkedGoals = $('input[name="goal"]:checked').length;
 }
