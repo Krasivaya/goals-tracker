@@ -10,7 +10,7 @@ form.addEventListener('submit', addItem);
 // Delete event
 itemList.addEventListener('click', removeItem);
 // Progress event
-goalCheck.addEventListener('click', progress);
+check.addEventListener('click', progress);
 
 
 // Add a new goal
