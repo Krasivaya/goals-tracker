@@ -1,0 +1,22 @@
+#home{
+    height: 680px;
+    top: auto;
+}
+
+img{
+    width: 35%;
+}
+#about, #how{
+    height: 100%;
+}
+
+#about .mid{
+    width: 80%;
+}
+h3, b{
+    font-weight: bold;
+}
+.goalCheck{
+    width: 2rem;
+    height: 1rem;
+}
