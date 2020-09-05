@@ -7,6 +7,8 @@ const check = document.querySelector('.check');
 form.addEventListener('submit', addItem);
 // Delete event
 itemList.addEventListener('click', removeItem);
+// Progress event
+goalCheck.addEventListener('click', progress);
 
 
 // Add a new goal
