@@ -63,4 +63,6 @@ function progress() {
 
     // Results
     const results = (checkedGoals / allGoals) * 100
+
+    // Display the Results
 }
