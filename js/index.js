@@ -74,10 +74,10 @@ function progress() {
     }
     else {
         document.querySelector('#done').style = 'display:none';
-        document.querySelector('#wait').style = 'display:none';
-        document.querySelector('#progress').style = 'display:block';
-
-        chart[0].innerText = Math.round(results)
-        circle[0].setAttribute('stroke-dashoffset', -results)
     }
+    document.querySelector('#wait').style = 'display:none';
+    document.querySelector('#progress').style = 'display:block';
+
+    chart[0].innerText = Math.round(results)
+    circle[0].setAttribute('stroke-dashoffset', -results)
 }
