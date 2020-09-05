@@ -34,3 +34,5 @@ function addItem(e) {
     // Add li element to itemList
     itemList.appendChild(li);
 }
+
+// Rsset function
