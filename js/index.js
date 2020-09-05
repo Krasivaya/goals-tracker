@@ -1,6 +1,7 @@
 const form = document.querySelector('#addForm');
 const itemList = document.querySelector('#goalsList');
 const check = document.querySelector('.check');
+const chart = $('#chart');
 
 
 // Form submit event
@@ -68,7 +69,7 @@ function progress() {
     if (results === 100) {
         document.querySelector('#done').style = 'display:block';
     } else if (isNaN(results)) {
-
+        prg[0].innerText = 0
     }
     else {
         document.querySelector('#done').style = 'display:none';
