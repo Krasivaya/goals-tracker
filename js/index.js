@@ -33,6 +33,8 @@ function addItem(e) {
 
     // Add li element to itemList
     itemList.appendChild(li);
+
+    resetField()
 }
 
 // Rsset function
