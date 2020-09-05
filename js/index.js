@@ -76,6 +76,7 @@ function progress() {
         document.querySelector('#done').style = 'display:none';
         document.querySelector('#wait').style = 'display:none';
         document.querySelector('#progress').style = 'display:block';
+
         chart[0].innerText = Math.round(rz)
         circle[0].setAttribute('stroke-dashoffset', -rz)
     }
