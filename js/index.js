@@ -74,5 +74,6 @@ function progress() {
     }
     else {
         document.querySelector('#done').style = 'display:none';
+        document.querySelector('#wait').style = 'display:none';
     }
 }
