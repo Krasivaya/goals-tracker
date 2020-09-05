@@ -8,4 +8,7 @@ form.addEventListener('submit', addItem);
 // Add a new goal
 function addItem(e) {
     e.preventDefault();
+
+    // Get input value
+    const newItem = document.querySelector('#item').value;
 }
