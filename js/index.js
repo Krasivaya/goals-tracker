@@ -55,3 +55,8 @@ function removeItem(e) {
         itemList.removeChild(li);
     }
 }
+
+// Goal Progress
+function progress() {
+
+}
