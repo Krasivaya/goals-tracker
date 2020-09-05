@@ -58,5 +58,5 @@ function removeItem(e) {
 
 // Goal Progress
 function progress() {
-
+    const allGoals = $('input[name="goal"]').length
 }
