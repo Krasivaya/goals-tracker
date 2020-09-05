@@ -1,4 +1,5 @@
 const form = document.querySelector('#addForm');
+const itemList = document.querySelector('#goalsList');
 
 
 // Form submit event
