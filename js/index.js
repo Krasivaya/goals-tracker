@@ -1,1 +1,1 @@
-const itemList = document.querySelector('#goalsList');
+const form = document.querySelector('#addForm');
