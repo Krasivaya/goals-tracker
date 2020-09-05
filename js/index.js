@@ -21,4 +21,16 @@ function addItem(e) {
     <input type="checkbox" name="goal" class="goalCheck" id="${newItem}">
     <label class="yoo pl-2" for="${newItem}">${newItem}</label>
     `;
+
+    // Create del button element
+    const delBtn = document.createElement('button');
+    // Add class
+    delBtn.className = 'btn btn-danger btn-sm float-right delete';
+    // Add text node
+    delBtn.appendChild(document.createTextNode('X'));
+    // Insert delBtn to li
+    li.appendChild(delBtn);
+
+    // Add li element to itemList
+    itemList.appendChild(li);
 }
