@@ -4,6 +4,8 @@ const itemList = document.querySelector('#goalsList');
 
 // Form submit event
 form.addEventListener('submit', addItem);
+// Delete event
+itemList.addEventListener('click', removeItem);
 
 
 // Add a new goal
