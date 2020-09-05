@@ -64,7 +64,7 @@ function progress() {
     const checkedGoals = $('input[name="goal"]:checked').length;
 
     // Results
-    const results = (checkedGoals / allGoals) * 100
+    const results = (checkedGoals / allGoals) * 100;
 
     // Display the Results
     document.querySelector('#wait').style = 'display:none';
