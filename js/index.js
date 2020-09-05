@@ -2,6 +2,7 @@ const form = document.querySelector('#addForm');
 const itemList = document.querySelector('#goalsList');
 const check = document.querySelector('.check');
 const chart = $('#chart');
+const circle = $('#circle-2');
 
 
 // Form submit event
