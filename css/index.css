@@ -20,6 +20,12 @@ h3, b{
     width: 2rem;
     height: 1rem;
 }
+#load{
+    margin-top: -10px;
+}
+#load img{
+    width: 20%;
+}
 .o-progress-circle {
     display: inline-block;
     position: relative;
